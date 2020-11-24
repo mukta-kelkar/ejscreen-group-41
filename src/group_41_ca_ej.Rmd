@@ -1,0 +1,21 @@
+---
+title: "group_41_ca_ej"
+author: "Mukta Kelkar"
+date: "11/24/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(janitor)
+library(here)
+```
+
+# Read in data
+
+```{r}
+ces <- read.csv(here("data", "ces3demographics.csv")) %>% 
+  clean_names()
+```
+
