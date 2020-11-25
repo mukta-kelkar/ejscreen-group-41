@@ -35,3 +35,4 @@ ces %>%
 
 ```
 
+**Overall Takeaways** In general, it looks like there is a negative relationship between CES 3.0 score and the percent of population that identifies as white. There are a larger number of census tracts taken when the percent of population that is white equals or is close to 0, as well as when it is greater than or equal to 75. 
