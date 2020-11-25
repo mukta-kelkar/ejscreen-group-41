@@ -26,8 +26,9 @@ ces %>%
   ggplot(aes(x = white, y = ces_3_0_score)) + 
   geom_hex() +
   labs(x = "Percentage of Population that is White",
-      y = "CES 3.0 Score") +
-  scale_fill_gradient(low = "darkorchid4", high = "magenta") +
+      y = "CES 3.0 Score",
+      title = "Relationship between demographics and CES Score in CA census tracts") +
+  scale_fill_gradient(low = "navy", high = "orange") +
   theme_minimal()
   
 
