@@ -1,6 +1,6 @@
 ---
 title: "group_41_ca_ej"
-author: "Mukta Kelkar"
+author: "Mukta Kelkar & Nikole Vannest"
 date: "11/24/2020"
 output: html_document
 ---
@@ -30,9 +30,6 @@ ces %>%
       title = "Relationship between demographics and CES Score in CA census tracts") +
   scale_fill_gradient(low = "navy", high = "orange") +
   theme_minimal()
-  
-
-
 ```
 
 **Overall Takeaways** In general, it looks like there is a negative relationship between CES 3.0 score and the percent of population that identifies as white. There are a larger number of census tracts taken when the percent of population that is white equals or is close to 0, as well as when it is greater than or equal to 75. 
